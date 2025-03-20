@@ -4,7 +4,8 @@ EXPOSE 8108
 
 ENV TYPESENSE_API_KEY=xyz \
     TYPESENSE_DATA_DIR=/data \
-    TYPESENSE_ENABLE_CORS=true
+    TYPESENSE_ENABLE_CORS=true \
+    PORT=8108
 
 RUN mkdir -p /data
 
