@@ -12,4 +12,4 @@ RUN mkdir -p /data
 VOLUME /data
 
 
-CMD ["/typesense-server", "--data-dir", "/data", "--api-key", "xyz", "--enable-cors"]
+CMD ["/typesense-server", "--data-dir", "/data", "--api-key", "xyz", "--enable-cors", "--listen-addr", "0.0.0.0:8108"]
